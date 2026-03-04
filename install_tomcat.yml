@@ -1,6 +1,6 @@
 ---
 - name: Install Tomcat on all nodes
-  hosts: tomcat_servers
+  hosts: all
   become: yes
 
   vars:
